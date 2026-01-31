@@ -21,7 +21,7 @@ CREATE TABLE Subscriptions (
     FOREIGN KEY (UserID) REFERENCES Users(UserID),
     FOREIGN KEY (ServiceID) REFERENCES Services(ServiceID)
 );
--- টেবিল তৈরি এবং ডাটা ইনসার্ট (একসাথে)
+
 CREATE TABLE Users (
     UserID INT PRIMARY KEY,
     UserName VARCHAR(100),
